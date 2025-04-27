@@ -1,0 +1,23 @@
+# Node modules em qualquer subpasta
+**/node_modules/
+
+# Artefatos de build
+**/dist/
+
+# Variáveis de ambiente sensíveis
+**/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dados do LocalStack (volume)
+localstack/
+
+# Pastas de IDE/editor
+.vscode/
+.idea/
+
+# Arquivos do macOS
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "dev": "ts-node-dev --respawn --transpile-only src/consumer.ts",
+  "build": "tsc",
+  "start:prod": "node dist/consumer.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^0.0.42",
+    "@types/node": "^22.15.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
